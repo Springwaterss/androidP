@@ -1,0 +1,70 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/relativeLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/background1"
+    android:orientation="horizontal">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            />
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <ImageButton
+                android:id="@+id/ib_cate"
+                android:layout_width="135dp"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/meishi" />
+
+            <ImageButton
+                android:id="@+id/ib_viewspot"
+                android:layout_width="135dp"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/jingdian" />
+
+            <ImageButton
+                android:id="@+id/ib_navigation"
+                android:layout_width="140dp"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/daohang" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/tv_cate"
+                android:layout_width="wrap_content"
+                android:layout_height="29dp"
+                android:text="                  美食" />
+
+            <TextView
+                android:id="@+id/tv_viewspot"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="                  景点" />
+
+            <TextView
+                android:id="@+id/tv_navigation"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="                  导航" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </TableLayout>
+</LinearLayout>

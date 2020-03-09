@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">TravelS</string>
+    <string-array name="user_type">
+        <item>普通用户</item>
+        <item>商家</item>
+        <item>管理员</item>
+    </string-array>
+    <string-array name="option">
+        <item>用户登录</item>
+        <item>运动测试</item>
+    </string-array>
+</resources>
